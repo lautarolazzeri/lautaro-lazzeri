@@ -7,11 +7,38 @@ import { HiOutlineMail } from 'react-icons/hi'
 import Link from 'next/link'
 import Image from 'next/image'
 
-import { TbBrandNextjs } from 'react-icons/tb'
 import { BiLogoCss3 } from 'react-icons/bi'
+import { FaArrowRight } from 'react-icons/fa'
 import { TbSeo } from 'react-icons/tb'
 import { DiFirebase } from 'react-icons/di'
-import { FaArrowRight } from 'react-icons/fa'
+
+import { AiOutlineHtml5 } from 'react-icons/ai'
+import { DiCss3 } from 'react-icons/di'
+import { SiTailwindcss } from 'react-icons/si'
+import { BiLogoJavascript } from 'react-icons/bi'
+import { FaReact } from 'react-icons/fa'
+import { SiTypescript } from 'react-icons/si'
+import { TbBrandNextjs } from 'react-icons/tb'
+import { BiLogoFlutter } from 'react-icons/bi'
+import { SiDart } from 'react-icons/si'
+import { BiLogoWordpress } from 'react-icons/bi'
+import {SiSvelte} from 'react-icons/si'
+
+
+import { BiGitBranch } from 'react-icons/bi'
+import { AiFillGithub } from 'react-icons/ai'
+import { AiFillGitlab } from 'react-icons/ai'
+import { DiScrum } from 'react-icons/di'
+import { FiFigma } from 'react-icons/fi'
+
+
+
+
+
+
+
+
+
 
 
 export default function Home() {
@@ -67,7 +94,6 @@ export default function Home() {
             </div>
           </div>
 
-
           <div className='md:mt-64 mt-16'>
             <Image src='https://lautarolazzeri.vercel.app/images/reta.jpg'
               width={200} height={100} layout='responsive' className='rounded-md'
@@ -93,8 +119,6 @@ export default function Home() {
             </div>
           </div>
 
-
-
           <div className='md:-mt-40 mt-16'>
             <Image src='https://lautarolazzeri.vercel.app/images/ceci.jpg'
               width={200} height={100} layout='responsive' className='rounded-md'
@@ -119,7 +143,6 @@ export default function Home() {
               </div>
             </div>
           </div>
-
 
           <div className='md:mt-24 mt-16'>
             <Image src='https://lautarolazzeri.vercel.app/images/sicars.jpg'
@@ -155,19 +178,117 @@ export default function Home() {
           </Link>
         </div>
 
-<br />
-<br />
+
+        <h2 className='md:mx-36 mx-8 mt-20 text-3xl mb-12 font-title'>Tecnologías utilizadas</h2>
+        <div className='md:mx-36 mx-8 md:grid flex items-center flex-wrap justify-center lg:grid-cols-4 md:grid-cols-3'>
+            <div className='w-full flex items-center px-3 py-8 gap-4 border-l-2 border-[#636d72] hover:border-l-2 hover:border-[#5477ff] duration-100 hover:text-white text-gray-400 '>
+              <AiOutlineHtml5 className='h-14 w-14 duration-150' />
+              <p className='mt-2'>HTML</p>
+            </div>
+            <div className='w-full flex items-center px-3 py-8 gap-4 border-l-2 border-[#636d72] hover:border-l-2 hover:border-[#5477ff] duration-100 hover:text-white text-gray-400 '>
+
+              <DiCss3 className='h-14 w-14 duration-150' />
+              <p className='mt-2'>CSS3</p>
+            </div>
+            <div className='w-full flex items-center px-3 py-8 gap-4 border-l-2 border-[#636d72] hover:border-l-2 hover:border-[#5477ff] duration-100 hover:text-white text-gray-400 '>
+
+              <SiTailwindcss className='h-14 w-14 duration-150' />
+              <p className='mt-2'>Tailwind</p>
+            </div>
+            <div className='w-full flex items-center px-3 py-8 gap-4 border-l-2 border-[#636d72] hover:border-l-2 hover:border-[#5477ff] duration-100 hover:text-white text-gray-400 '>
+
+              <BiLogoJavascript className='h-14 w-14 duration-150' />
+              <p className='mt-2'>Javascript</p>
+            </div>
+            <div className='w-full flex items-center px-3 py-8 gap-4 border-l-2 border-[#636d72] hover:border-l-2 hover:border-[#5477ff] duration-100 hover:text-white text-gray-400 '>
+
+              <FaReact className='h-14 w-14 duration-150' />
+              <p className='mt-2'>React</p>
+            </div>
+            <div className='w-full flex items-center px-3 py-8 gap-4 border-l-2 border-[#636d72] hover:border-l-2 hover:border-[#5477ff] duration-100 hover:text-white text-gray-400 '>
+
+              <SiTypescript className='h-10 w-10 duration-150' />
+              <p className='mt-2'>Typescript</p>
+            </div>
+            <div className='w-full flex items-center px-3 py-8 gap-4 border-l-2 border-[#636d72] hover:border-l-2 hover:border-[#5477ff] duration-100 hover:text-white text-gray-400 '>
+
+              <TbBrandNextjs className='h-14 w-14 duration-150' />
+              <p className='mt-2'>Next Js</p>
+            </div>
+            <div className='w-full flex items-center px-3 py-8 gap-4 border-l-2 border-[#636d72] hover:border-l-2 hover:border-[#5477ff] duration-100 hover:text-white text-gray-400 '>
+
+              <BiLogoFlutter className='h-14 w-14 duration-150' />
+              <p className='mt-2'>Flutter</p>
+            </div>
+            <div className='w-full flex items-center px-3 py-8 gap-4 border-l-2 border-[#636d72] hover:border-l-2 hover:border-[#5477ff] duration-100 hover:text-white text-gray-400 '>
+
+              <SiDart className='h-12 w-12 duration-150' />
+              <p className='mt-2'>Dart</p>
+            </div>
+            <div className='w-full flex items-center px-3 py-8 gap-4 border-l-2 border-[#636d72] hover:border-l-2 hover:border-[#5477ff] duration-100 hover:text-white text-gray-400 '>
+
+              <BiLogoWordpress className='h-14 w-14 duration-150' />
+              <p className='mt-2'>Wordpress</p>
+            </div>
+            <div className='w-full flex items-center px-3 py-8 gap-4 border-l-2 border-[#636d72] hover:border-l-2 hover:border-[#5477ff] duration-100 hover:text-white text-gray-400 '>
+            <SiSvelte className='h-14 w-14 duration-150' />
+            <p className='mt-2'>Svelte</p>
+            </div>
+          </div>
+
+
+
+
+        <h2 className='md:mx-36 mx-8 mt-20 text-3xl mb-12 font-title'>Algunas Herramientas</h2>
+        <div className='md:mx-36 mx-8 md:grid flex items-center flex-wrap justify-center lg:grid-cols-5 md:grid-cols-3'>
+
+          <div className='w-full flex items-center px-3 py-8 gap-4 border-l-2 border-[#636d72] hover:border-l-2 hover:border-[#5477ff] duration-100 hover:text-white text-gray-400 '>
+            <BiGitBranch className='h-14 w-14 duration-150' />
+            <p className='mt-2'>Git</p>
+          </div>
+
+          <div className='w-full flex items-center px-3 py-8 gap-4 border-l-2 border-[#636d72] hover:border-l-2 hover:border-[#5477ff] duration-100 hover:text-white text-gray-400 '>
+            <AiFillGithub className='h-14 w-14 duration-150' />
+            <p className='mt-2'>Github</p>
+          </div>
+
+          <div className='w-full flex items-center px-3 py-8 gap-4 border-l-2 border-[#636d72] hover:border-l-2 hover:border-[#5477ff] duration-100 hover:text-white text-gray-400 '>
+            <AiFillGitlab className='h-14 w-14 duration-150' />
+            <p className='mt-2'>Gitlab</p>
+          </div>
+
+          <div className='w-full flex items-center px-3 py-8 gap-4 border-l-2 border-[#636d72] hover:border-l-2 hover:border-[#5477ff] duration-100 hover:text-white text-gray-400 '>
+            <DiScrum className='h-14 w-14 duration-150' />
+            <p className='mt-2'>Scrum</p>
+          </div>
+
+          <div className='w-full flex items-center px-3 py-8 gap-4 border-l-2 border-[#636d72] hover:border-l-2 hover:border-[#5477ff] duration-100 hover:text-white text-gray-400 '>
+            <FiFigma className='h-14 w-14 duration-150' />
+            <p className='mt-2'>Figma</p>
+          </div>
+        </div>
+
+
+
+        <div className='md:mt-40 mt-56 flex justify-center items-center flex-col'>
+          <hr className='bg-[#636d728d] h-px w-full my-8 border-0 ' />
+          <div className='md:mx-36 mx-8 lg:-mt-24 -mt-52 md:-mt-40 py-8 px-8 md:px-14 bg-[#181e27] border-2 border-[#636d725f]'>
+            <h2 className='text-2xl font-title'>Un poco sobre mí</h2>
+            <p className='font-title text-gray-400 mt-3 mb-6'>Soy desarrollador de Software autónomo, siempre he adquirido conocimientos por mi cuenta, leyendo, realizando cursos, practicando, trabajando. <br /> Mi experiencia en diversos lenguajes y mi enfoque en la resolución creativa de problemas para ofrecer el mejor servicio me destacan en el ámbito. Entregué varios proyectos exitosos de manera independiente, demostrando mi autodisciplina y habilidades de gestión de proyectos. <br /> Siempre estoy preparado para conocer nuevas tecnologías y mantenerme actualizado. Mi compromiso con la mejora contínua me compromete a tener conocimiento de las últimas tecnologías y sus beneficios. <br /> Estoy emocionado por la oportunidad de contribuir a su equipo y llevar mi pasión por la programación al siguiente nivel.</p>
+          </div>
+        </div>
+
 <br />
 <br />
 <br />
 <br />
 <br />
 
-
-
-      </div>
-
-
+        </div>
     </div>
+
+
+
+
   )
 }
