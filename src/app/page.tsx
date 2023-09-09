@@ -46,7 +46,7 @@ export default function Home() {
     <div className=''>
       <ParticlesBackground />
 
-      <div className='h-[93vh] flex justify-center flex-col items-start md:mx-36 mx-8'>
+      <div id='header' className='h-[93vh] flex justify-center flex-col items-start md:mx-36 mx-8'>
         <div className='flex flex-col md:flex-row md:justify-between w-full mt-8'>
           <div>
             <h1 className='text-5xl font-title'>Lautaro Sebastian Lazzeri</h1>
@@ -178,6 +178,14 @@ export default function Home() {
           </Link>
         </div>
 
+        <div className='md:mt-40 mt-56 flex justify-center items-center flex-col'>
+          <hr className='bg-[#636d728d] h-px w-full my-8 border-0 ' />
+          <div className='md:mx-36 mx-8 lg:-mt-24 -mt-52 md:-mt-40 py-8 px-8 md:px-14 bg-[#181e27] border-2 border-[#636d725f]'>
+            <h2 className='text-2xl font-title'>Un poco sobre mí</h2>
+            <p className='font-title text-gray-400 mt-3 mb-6'>Soy desarrollador de Software autónomo, siempre he adquirido conocimientos por mi cuenta, leyendo, realizando cursos, practicando, trabajando. <br /> Mi experiencia en diversos lenguajes y mi enfoque en la resolución creativa de problemas para ofrecer el mejor servicio me destacan en el ámbito. Entregué varios proyectos exitosos de manera independiente, demostrando mi autodisciplina y habilidades de gestión de proyectos. <br /> Siempre estoy preparado para conocer nuevas tecnologías y mantenerme actualizado. Mi compromiso con la mejora contínua me compromete a tener conocimiento de las últimas tecnologías y sus beneficios. <br /> Estoy emocionado por la oportunidad de contribuir a su equipo y llevar mi pasión por la programación al siguiente nivel.</p>
+          </div>
+        </div>
+
 
         <h2 className='md:mx-36 mx-8 mt-20 text-3xl mb-12 font-title'>Tecnologías utilizadas</h2>
         <div className='md:mx-36 mx-8 md:grid flex items-center flex-wrap justify-center lg:grid-cols-4 md:grid-cols-3'>
@@ -270,19 +278,16 @@ export default function Home() {
 
 
 
-        <div className='md:mt-40 mt-56 flex justify-center items-center flex-col'>
-          <hr className='bg-[#636d728d] h-px w-full my-8 border-0 ' />
-          <div className='md:mx-36 mx-8 lg:-mt-24 -mt-52 md:-mt-40 py-8 px-8 md:px-14 bg-[#181e27] border-2 border-[#636d725f]'>
-            <h2 className='text-2xl font-title'>Un poco sobre mí</h2>
-            <p className='font-title text-gray-400 mt-3 mb-6'>Soy desarrollador de Software autónomo, siempre he adquirido conocimientos por mi cuenta, leyendo, realizando cursos, practicando, trabajando. <br /> Mi experiencia en diversos lenguajes y mi enfoque en la resolución creativa de problemas para ofrecer el mejor servicio me destacan en el ámbito. Entregué varios proyectos exitosos de manera independiente, demostrando mi autodisciplina y habilidades de gestión de proyectos. <br /> Siempre estoy preparado para conocer nuevas tecnologías y mantenerme actualizado. Mi compromiso con la mejora contínua me compromete a tener conocimiento de las últimas tecnologías y sus beneficios. <br /> Estoy emocionado por la oportunidad de contribuir a su equipo y llevar mi pasión por la programación al siguiente nivel.</p>
-          </div>
-        </div>
 
-<br />
-<br />
-<br />
-<br />
-<br />
+
+        <footer className='mt-24 flex justify-center flex-col items-center h-56 w-full'>
+          <p>© 2023. All rights reserved. Lautaro Lazzeri</p>
+          <Link href='#header'>
+            <button className=' bg-gray-300 mt-4 text-[#151a22] hover:bg-white duration-150 font-medium px-6 py-3 rounded-xl'>
+              Scroll to top
+            </button>
+          </Link>
+        </footer>
 
         </div>
     </div>
