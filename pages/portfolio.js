@@ -226,16 +226,16 @@ export default function Portfolio() {
 
 
           <div className='md:mt-24 mt-12'>
-            <Image src='/drums.jpg'
+            <Image src='/landing.jpg'
               width={200} height={100} layout='responsive' className='rounded-md'
-              alt='Drums kit'
+              alt='landing page'
             />
             <div>
               <div className='mt-4 flex justify-between items-center flex-wrap'>
-                <h3 className='md:text-2xl text-xl font-title'>Kit de Bateria</h3>
+                <h3 className='md:text-2xl text-xl font-title'>Startup Landing</h3>
                 <div className='mt-4'>
                   <Link href='/' className='text-gray-300 mt-4 duration-150 hover:text-white'>+ Info</Link>
-                  <Link href='https://drum-kit-js-project.netlify.app/' target='_blank' className='ml-8 mt-4 bg-[#394552] px-6 py-3 hover:bg-[#2c343c] duration-150 rounded-xl'>
+                  <Link href='https://nextjs-website-lazzeri.netlify.app/' target='_blank' className='ml-8 mt-4 bg-[#394552] px-6 py-3 hover:bg-[#2c343c] duration-150 rounded-xl'>
                     Preview
                     <FaArrowRight className='inline ml-2 ' />
                   </Link>

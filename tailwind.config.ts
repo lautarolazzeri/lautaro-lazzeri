@@ -17,6 +17,7 @@ const config: Config = {
     fontFamily: {
       body: ['Nunito Sans', 'sans-serif'],
       title: ['Raleway', 'sans-serif'],
+      system: ['system-ui'],
     }
   },
   plugins: [],
