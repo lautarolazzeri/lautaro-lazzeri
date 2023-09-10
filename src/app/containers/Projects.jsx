@@ -21,7 +21,7 @@ export default function Projects() {
               <div className='mt-4 flex justify-between items-center flex-wrap'>
                 <h3 className='md:text-2xl text-xl font-title'>Metodo Silva</h3>
                 <div className='mt-4 mb-2'>
-                <Link href='/' className='text-gray-300 mt-4 duration-150 hover:text-white'>+ Info</Link>
+                <Link href='/portfolio/metodosilva' className='text-gray-300 mt-4 duration-150 hover:text-white'>+ Info</Link>
                 <Link href='https://elmetodosilva.com.ar'  target='_blank' className='ml-8 mt-4 bg-[#394552] px-6 py-3 hover:bg-[#2c343c] duration-150 rounded-xl'>
                     Preview
                   <FaArrowRight className='inline ml-2 ' />
