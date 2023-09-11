@@ -58,7 +58,7 @@ export default function Itisjt() {
           Este fue desarrollado con Html, Css y Javascript, y se encuentra alojado en Vercel. Podés jugar al juego de preguntas y respuestas en el siguiente link:  <a href='https://seguridad-itisjt.vercel.app/juego.html' className='text-blue-400'>Juego de preguntas y respuestas</a>
 
         </p>
-        <Image src='/seguridad.png' width={500} height={300} alt='Seguridad informatica' className='mt-5 strange-padding' />
+        <Image src='/seguridad.PNG' width={500} height={300} alt='Seguridad informatica' className='mt-5 strange-padding' />
       </div>
   </div>
 
