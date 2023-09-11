@@ -49,7 +49,9 @@ export default function Meditacion() {
         </div>
       </div>
       <div className='md:ml-8 nomt'>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae totam impedit incidunt quisquam ab. Tempore ipsa tempora facilis magnam unde vero! Consequuntur laborum rerum magnam, reiciendis deserunt sed corporis nam dolorum molestias eveniet eius culpa ipsum vitae alias ratione tenetur. Fuga, consequatur tempore? Cum, quia?</p>
+        <p>
+          Esta página es una Landing page la cual fue desarrollada a modo de práctica con el fin de mostrar la estructura de una página web de una startUp. El diseño fue realizado previamente en Figma y luego se pasó a código con NextJs y CSS.
+        </p>
         <Image src='/landing.jpg' width={500} height={300} alt='Landing page' className='mt-5 strange-padding' />
       </div>
   </div>
