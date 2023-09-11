@@ -1,5 +1,6 @@
 import '../../src/app/globals.css'
 import ParticlesBackground from '../../src/app/components/ParticlesBackground'
+import Footer from '../../src/app/containers/Footer'
 import Link from 'next/link'
 import {FiArrowUpRight} from 'react-icons/fi'
 import { DiCss3 } from "react-icons/di";
@@ -61,14 +62,10 @@ export default function MetodosilvaPage() {
       </div>
   </div>
 
-  <footer className='flex text-center justify-center flex-col items-center h-56 w-full'>
-      <p>© 2023. All rights reserved. Lautaro Lazzeri</p>
-    </footer>
-
-
 
   </div>
 
+  <Footer />
 
 
     </>
