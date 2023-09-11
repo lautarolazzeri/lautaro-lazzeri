@@ -35,3 +35,15 @@ html {
   padding-top: 16px;
   padding-bottom: 16px;
 }
+.strange-padding p {
+  color: #ffffff6d;
+  transition: all 0.2s ease-in-out;
+}
+
+.strange-padding p:hover {
+  color: white;
+}
+
+.strange-padding h4 {
+  margin-bottom: 5px;
+}
