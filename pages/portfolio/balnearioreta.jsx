@@ -16,7 +16,7 @@ export default function BalnearioReta() {
 
 <div className='md:mx-36 mx-8 mt-24'>
   <h3 className='md:text-5xl text-2xl'>Página oficial de Balneario Reta</h3>
-  <div className="md:flex-row flex flex-col  mt-20">
+  <div className="md:flex-row flex flex-col mt-20">
       <div className='w-full'>
         <div className='py-5 border-t-2 border-[#636d726d]'>
           <Link href='https://balnearioretaoficial.com.ar' target='_blank'>
@@ -27,7 +27,7 @@ export default function BalnearioReta() {
         </Link>
         </div>
 
-        <div className='py-5 border-t-2 border-[#636d726d]'>
+        <div className='py-4 border-t-2 border-[#636d726d]'>
             <h4 className='text-xl font-medium'>Sector</h4>
             <p className='text-[#ffffff6d]'>Diseño y desarrollo</p>
         </div>
