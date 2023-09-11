@@ -125,7 +125,7 @@ export default function Projects() {
                   <h3 className='md:text-2xl text-xl font-title'>Seguridad Informática</h3>
                   <div className='mt-4 mb-2'>
                     <Link href='/portfolio/itisjt' className='text-gray-300 mt-4 duration-150 hover:text-white'>+ Info</Link>
-                    <Link href='https://sicars.vercel.app' target='_blank' className='ml-8 mt-4 bg-[#394552] px-6 py-3 hover:bg-[#2c343c] duration-150 rounded-xl'>
+                    <Link href='https://seguridad-itisjt.vercel.app' target='_blank' className='ml-8 mt-4 bg-[#394552] px-6 py-3 hover:bg-[#2c343c] duration-150 rounded-xl'>
                       Preview
                       <FaArrowRight className='inline ml-2 ' />
                     </Link>
