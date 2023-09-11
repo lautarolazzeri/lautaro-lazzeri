@@ -50,7 +50,13 @@ export default function MetodosilvaPage() {
         </div>
       </div>
       <div className='md:ml-8 nomt'>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae totam impedit incidunt quisquam ab. Tempore ipsa tempora facilis magnam unde vero! Consequuntur laborum rerum magnam, reiciendis deserunt sed corporis nam dolorum molestias eveniet eius culpa ipsum vitae alias ratione tenetur. Fuga, consequatur tempore? Cum, quia?</p>
+        <p>
+        Diseñar y desarrollar la aplicación de cursos del Método Silva fue un emocionante viaje hacia el bienestar y el crecimiento personal. El principal enfoque fué crear una experiencia digital que mostrara los beneficios y la efectividad del método.
+
+        La interfaz de usuario fue creada de manera intuitiva con colores semejantes a su logo para crear simetría y además proporcionar una navegación sin esfuerzo, para que los usuarios puedan leer toda la información sin distracciones mayores, ya que el principal público objetivo son gente mayor.
+
+        En cuanto al desarrollo, la principal idea era que la aplicación ofreciera una amplia gama de contenido enriquecedor, desde información básica sobre el método, hasta el ¿Por qué el método?. Además, la aplicación cuenta con una sección donde mensualmente se editan las fechas de los próximos cursos a realizarse.
+        </p>
         <Image src='/metodosilva.jpg' width={500} height={300} alt='metodosilva' className='mt-5 strange-padding' />
       </div>
   </div>
