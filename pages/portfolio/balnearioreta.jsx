@@ -18,7 +18,7 @@ export default function BalnearioReta() {
   <h3 className='md:text-5xl text-2xl'>Página oficial de Balneario Reta</h3>
   <div className="md:flex-row flex flex-col mt-20">
       <div className='w-full'>
-        <div className='py-5 border-t-2 border-[#636d726d]'>
+        <div className='strange-padding border-t-2 border-[#636d726d]'>
           <Link href='https://balnearioretaoficial.com.ar' target='_blank'>
           <div className='flex items-center'>
             <p>Visitar Balneario Reta</p>
@@ -27,7 +27,7 @@ export default function BalnearioReta() {
         </Link>
         </div>
 
-        <div className='py-4 border-t-2 border-[#636d726d]'>
+        <div className='strange-padding border-t-2 border-[#636d726d]'>
             <h4 className='text-xl font-medium'>Sector</h4>
             <p className='text-[#ffffff6d]'>Diseño y desarrollo</p>
         </div>
@@ -39,7 +39,7 @@ export default function BalnearioReta() {
             <p className='text-[#ffffff6d] hover:text-white duration-100'>Seo</p>
             <p className='text-[#ffffff6d] hover:text-white duration-100'>Vercel</p>
         </div>
-        <div className='py-4 border-t-2 border-[#636d726d]'>
+        <div className='strange-padding border-t-2 border-[#636d726d]'>
             <div className='mt-2 flex'>
                 <TbBrandNextjs className='h-10 w-10 text-gray-400 duration-150 hover:text-white' />
                 <DiCss3 className='h-10 w-10 ml-2 text-gray-400 duration-150 hover:text-white' />

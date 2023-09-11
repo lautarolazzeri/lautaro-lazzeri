@@ -31,3 +31,7 @@ body {
 html {
   scroll-behavior: smooth;
 }
+.strange-padding {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
