@@ -51,7 +51,15 @@ export default function Sicars() {
         </div>
       </div>
       <div className='md:ml-8 nomt'>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae totam impedit incidunt quisquam ab. Tempore ipsa tempora facilis magnam unde vero! Consequuntur laborum rerum magnam, reiciendis deserunt sed corporis nam dolorum molestias eveniet eius culpa ipsum vitae alias ratione tenetur. Fuga, consequatur tempore? Cum, quia?</p>
+        <p>
+          Sicars Eventos es una empresa de organización de eventos que se dedica a la organización de eventos sociales y empresariales alquilando vehículos de lujo, clásicos o llamativos. Se utilizó NextJs para el desarrollo de la aplicación, lo que permitió un mejor posicionamiento en los buscadores y una mejor experiencia de usuario.
+          <br /><br />
+          La aplicación cuenta con una base de datos en Firebase, que permite almacenar los datos de los Vehículos para que luego sean importados al proyecto haciendolo mas liviano.
+          <br /><br />
+          Con un diseño simple y concreto, se logró un sitio web que cumple con los objetivos, que son: dar a conocer los vehículos que ofrece y facilitar el contacto de los clientes.
+          <br /><br />
+          VEHÍCULOS CLÁSICOS Y EXCLUSIVOS QUE MARCAN LA DIFERENCIA.
+        </p>
         <Image src='/sicars.jpg' width={500} height={300} alt='Sicars' className='mt-5 strange-padding' />
       </div>
   </div>
