@@ -57,7 +57,7 @@ export default function Meditacion() {
       <div className='md:ml-8 nomt'>
         <p>
 
-        Este proyecto se centró en crear un espacio digital que inspire serenidad y facilite la práctica de la meditación para los usuarios. Aquí se destacan algunos aspectos clave de este exitoso desarrollo:
+        Este proyecto se centró en crear un espacio digital que inspire serenidad y facilite la práctica de la meditación para los usuarios. Aquí se destacan algunos aspectos clave del desarrollo:
         <br /><br />
         El diseño se enfocó en la creación de una estética visual que transmite calma y serenidad. Se utilizaron colores suaves y una estética minimalista para reflejar la naturaleza pacífica de la meditación. Además se implementó una navegación sencilla y fácil de usar. Los usuarios podrán acceder sin esfuerzo a diversas meditaciones y recursos a través de un menú claro. Los botones de reproducción y pausa se destacarán para una experiencia de usuario óptima.
         <br /><br />

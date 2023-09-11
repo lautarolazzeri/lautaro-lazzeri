@@ -50,11 +50,11 @@ export default function Itisjt() {
       <div className='md:ml-8 nomt'>
         <p>
 
-          Éste sitio fue uno de los primeros que realice, junto a 3 compañeros con la finalidad de mostrar todos los tipos de MALWARES/VIRUS existentes y su correcta manera para evitar un conflicto con ellos, este proyecto fue para la materia de Seguridad Informática en el Instituto Técnico San Judas Tadeo.
+          Éste sitio fue uno de los primeros que realice, junto a 3 compañeros con la finalidad de mostrar todos los tipos de MALWARES/VIRUS existentes y su correcta forma para evitar estos ataques a nuestro sistema, este proyecto fué para la materia de Seguridad Informática en el Instituto Técnico San Judas Tadeo. Secundaria Técnica en Informática donde finalicé mis estudios.
           <br /><br />
-          La página web incluye un juego de preguntas y respuestas para que el usuario pueda poner a prueba sus conocimientos sobre el tema aprendidos previamente en el sitio.
+          La página web incluye un juego de preguntas y respuestas para que el usuario pueda poner a prueba sus conocimientos sobre los temas aprendidos previamente en el sitio.
           <br /><br />
-          El sitio fue desarrollado con Html, Css y Javascript, y se encuentra alojado en Vercel. Podés jugar al juego de preguntas y respuestas en el siguiente link:  <a href='https://seguridad-itisjt.vercel.app/juego.html' className='text-blue-400'>Juego de preguntas y respuestas</a>
+          Este fue desarrollado con Html, Css y Javascript, y se encuentra alojado en Vercel. Podés jugar al juego de preguntas y respuestas en el siguiente link:  <a href='https://seguridad-itisjt.vercel.app/juego.html' className='text-blue-400'>Juego de preguntas y respuestas</a>
 
         </p>
         <Image src='/seguridad.png' width={500} height={300} alt='Seguridad informatica' className='mt-5 strange-padding' />

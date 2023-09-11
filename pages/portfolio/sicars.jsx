@@ -54,7 +54,7 @@ export default function Sicars() {
         <p>
           Sicars Eventos es una empresa de organización de eventos que se dedica a la organización de eventos sociales y empresariales alquilando vehículos de lujo, clásicos o llamativos. Se utilizó NextJs para el desarrollo de la aplicación, lo que permitió un mejor posicionamiento en los buscadores y una mejor experiencia de usuario.
           <br /><br />
-          La aplicación cuenta con una base de datos en Firebase, que permite almacenar los datos de los Vehículos para que luego sean importados al proyecto haciendolo mas liviano.
+          La aplicación cuenta con una base de datos en Firebase, que permite almacenar los datos de los vehículos para que luego sean importados al proyecto haciéndolo más liviano.
           <br /><br />
           Con un diseño simple y concreto, se logró un sitio web que cumple con los objetivos, que son: dar a conocer los vehículos que ofrece y facilitar el contacto de los clientes.
           <br /><br />

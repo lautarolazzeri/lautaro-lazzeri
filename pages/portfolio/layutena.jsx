@@ -51,7 +51,9 @@ export default function LaYutena() {
       <div className='md:ml-8 nomt'>
         <p>
 
-          La Yuteña - Guaireña es una empresa de viajes en micro que se dedica a realizar viajes al norte y principalmente a Paraguay, entre otras rutas y destinos. El sitio web fue desarrollado en Wordpress y se utilizó el plugin Elementor para la maquetación. El diseño fue realizado previamente en Figma y luego se pasó a código con Wordpress y CSS, utilizando y modificando los widgets de Elementor.
+          La Yuteña - Guaireña es una empresa de viajes en micro que se dedica a realizar viajes al norte y principalmente a Paraguay, entre otras rutas y destinos.
+<br /><br />
+          El sitio web fue desarrollado en Wordpress y se utilizó el plugin Elementor para la maquetación. El diseño fue realizado previamente en Figma y luego se pasó a código con Wordpress y CSS, utilizando y modificando los widgets de Elementor.
 
         </p>
         <Image src='/yutena.jpg' width={500} height={300} alt='La Yuteña' className='mt-5 strange-padding'  />
