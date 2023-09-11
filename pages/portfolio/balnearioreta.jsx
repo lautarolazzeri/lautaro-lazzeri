@@ -50,7 +50,14 @@ export default function BalnearioReta() {
         </div>
       </div>
       <div className='md:ml-8 nomt'>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae totam impedit incidunt quisquam ab. Tempore ipsa tempora facilis magnam unde vero! Consequuntur laborum rerum magnam, reiciendis deserunt sed corporis nam dolorum molestias eveniet eius culpa ipsum vitae alias ratione tenetur. Fuga, consequatur tempore? Cum, quia?</p>
+        <p>
+
+        Diseñar y desarrollar la aplicación sobre Balneario Reta ha sido un emocionante desafío y un proyecto personal muy valioso. La aplicación busca brindar a los visitantes y locales una experiencia única al explorar este hermoso destino costero en la costa argentina.
+        <br /><br />
+        El proceso de diseño se centró en la facilidad de uso y la accesibilidad. Se quería asegurar de que los usuarios puedan navegar de manera sencilla y intuitiva asi poder encontrar la información que necesitan sobre alojamiento, actividades, atracciones, servicios y eventos en Balneario Reta. El diseño es limpio y atractivo, con una interfaz amigable que refleja la belleza del entorno.
+        <br /><br />
+        En cuanto al desarrollo, se ha utilizado tecnologías para garantizar un rendimiento óptimo y una experiencia sin problemas. La aplicación por supuesto está disponible tanto en celulares, tablets y computadoras.
+        </p>
         <Image src='/reta.jpg' width={500} height={300} alt='balneario reta' className='mt-5 strange-padding' />
       </div>
   </div>
