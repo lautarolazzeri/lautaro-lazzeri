@@ -144,7 +144,7 @@ export default function Projects() {
         <div className='mt-16 w-full flex justify-center text-center'>
           <Link href='/portfolio'>
             <button className=' bg-gray-300 text-[#151a22] hover:bg-white duration-150 font-medium px-6 py-3 rounded-xl'>
-              View all projects
+              Ver todos los proyectos
             </button>
           </Link>
         </div>
