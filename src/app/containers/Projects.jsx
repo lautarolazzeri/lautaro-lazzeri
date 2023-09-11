@@ -9,7 +9,7 @@ import { TbBrandNextjs, TbSeo } from "react-icons/tb";
 export default function Projects() {
   return (
     <>
-    <h2 className='md:mx-36 mx-8 mt-12 text-3xl mb-12 font-title'>Latest Projects</h2>
+    <h2 className='md:mx-36 mx-8 mt-12 text-3xl mb-12 font-title'>Algunos proyectos</h2>
         <div className='md:mx-36 mx-8 md:grid md:grid-cols-2 md:gap-12'>
 
           <div>
@@ -115,7 +115,7 @@ export default function Projects() {
             </div>
           </div>
 
-          <div className='-mt-40'>
+          <div className='md:-mt-40'>
               <Image src='https://lautarolazzeri.vercel.app/images/seguridad.PNG'
                 width={200} height={100} layout='responsive' className='rounded-md'
                 alt='Seguridad Informática'
