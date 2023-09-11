@@ -4,6 +4,7 @@ import { DiCss3 } from "react-icons/di";
 import { FaReact } from "react-icons/fa";
 import { SiDart, SiSvelte, SiTailwindcss, SiTypescript } from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
+import { DiFirebase } from 'react-icons/di'
 
 export default function Technologies() {
   return (
@@ -58,6 +59,10 @@ export default function Technologies() {
 
               <BiLogoWordpress className='h-14 w-14 duration-150' />
               <p className='mt-2'>Wordpress</p>
+            </div>
+            <div className='w-full flex items-center px-3 py-8 gap-4 border-l-2 border-[#636d72] hover:border-l-2 hover:border-[#5477ff] duration-100 hover:text-white text-gray-400 '>
+            <DiFirebase className='h-14 w-14 duration-150' />
+            <p className='mt-2'>Firebase / Sql</p>
             </div>
             <div className='w-full flex items-center px-3 py-8 gap-4 border-l-2 border-[#636d72] hover:border-l-2 hover:border-[#5477ff] duration-100 hover:text-white text-gray-400 '>
             <SiSvelte className='h-14 w-14 duration-150' />
