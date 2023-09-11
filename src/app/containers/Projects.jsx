@@ -115,7 +115,7 @@ export default function Projects() {
             </div>
           </div>
 
-          <div className='md:-mt-40'>
+          <div className='md:-mt-40 mt-16'>
               <Image src='https://lautarolazzeri.vercel.app/images/seguridad.PNG'
                 width={200} height={100} layout='responsive' className='rounded-md'
                 alt='Seguridad Informática'
