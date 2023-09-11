@@ -54,7 +54,7 @@ export default function Meditacion() {
               </div>
         </div>
       </div>
-      <div className='md:ml-8 md:mt-0 mt-8'>
+      <div className='md:ml-8 nomt'>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae totam impedit incidunt quisquam ab. Tempore ipsa tempora facilis magnam unde vero! Consequuntur laborum rerum magnam, reiciendis deserunt sed corporis nam dolorum molestias eveniet eius culpa ipsum vitae alias ratione tenetur. Fuga, consequatur tempore? Cum, quia?</p>
         <Image src='/meditation.jpg' width={500} height={300} alt='meditacion' className='mt-5 strange-padding' />
       </div>

@@ -47,3 +47,12 @@ html {
 .strange-padding h4 {
   margin-bottom: 5px;
 }
+.nomt {
+  margin-top: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .nomt {
+    margin-top: -5px;
+  }
+}
