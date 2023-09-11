@@ -51,11 +51,11 @@ export default function MetodosilvaPage() {
       </div>
       <div className='md:ml-8 mt-8 md:mt-0'>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae totam impedit incidunt quisquam ab. Tempore ipsa tempora facilis magnam unde vero! Consequuntur laborum rerum magnam, reiciendis deserunt sed corporis nam dolorum molestias eveniet eius culpa ipsum vitae alias ratione tenetur. Fuga, consequatur tempore? Cum, quia?</p>
-        <Image src='https://lautarolazzeri.vercel.app/images/metodosilva.jpg' width={500} height={300} alt='metodosilva' className='mt-5' />
+        <Image src='/metodosilva.jpg' width={500} height={300} alt='metodosilva' className='mt-5' />
       </div>
   </div>
 
-    <footer className='mt-24 flex text-center justify-center flex-col items-center h-56 w-full'>
+  <footer className='flex text-center justify-center flex-col items-center h-56 w-full'>
       <p>© 2023. All rights reserved. Lautaro Lazzeri</p>
     </footer>
 
