@@ -30,6 +30,7 @@ import { AiFillGitlab } from 'react-icons/ai'
 import { DiScrum } from 'react-icons/di'
 import { FiFigma } from 'react-icons/fi'
 import { RxVercelLogo } from 'react-icons/rx'
+import Footer from '../src/app/containers/Footer'
 
 
 
@@ -269,8 +270,12 @@ export default function Portfolio() {
           </Link>
         </div>
 
+
+
+
       </div>
 
+      <Footer />
 
 
     </ >
