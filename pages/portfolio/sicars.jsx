@@ -52,7 +52,7 @@ export default function Sicars() {
       </div>
       <div className='md:ml-8 mt-8 md:mt-0'>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae totam impedit incidunt quisquam ab. Tempore ipsa tempora facilis magnam unde vero! Consequuntur laborum rerum magnam, reiciendis deserunt sed corporis nam dolorum molestias eveniet eius culpa ipsum vitae alias ratione tenetur. Fuga, consequatur tempore? Cum, quia?</p>
-        <Image src='/sicars.jpg' width={500} height={300} alt='Sicars' className='mt-5' />
+        <Image src='/sicars.jpg' width={500} height={300} alt='Sicars' className='mt-5 strange-padding' />
       </div>
   </div>
 
