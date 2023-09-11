@@ -50,8 +50,7 @@ export default function LaMerlina() {
       </div>
       <div className='md:ml-8 nomt'>
         <p>
-
-        El diseño y desarrollo de la aplicación "La Merlina" se centró en brindar a los usuarios una experiencia única al planificar y disfrutar de su estadía en Merlo, San Luis.
+        El diseño y desarrollo de la página de La Merlina se centró en brindar a los usuarios una experiencia única al planificar y disfrutar de su estadía en Merlo, San Luis.
         <br /><br />
         La web ofrece una interfaz intuitiva y atractiva que permite a los usuarios explorar fácilmente las cabañas disponibles, obtener información detallada sobre las atracciones turísticas de la zona y reservar su alojamiento de manera conveniente. Posterior al desarrollo se aseguró que la aplicación sea rápida, segura y fácil de usar, brindando a los visitantes de La Merlina Centro una herramienta invaluable para vivir una experiencia inolvidable en este hermoso destino turístico.
         </p>

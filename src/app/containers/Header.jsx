@@ -10,10 +10,10 @@ export default function Header() {
           <div>
             <h1 className='text-5xl font-title'>Lautaro Sebastian Lazzeri</h1>
             <div className='flex items-center mt-8 mb-8'>
-              <Link href='/'><FiInstagram       className='text-gray-400 hover:text-white duration-150 h-8 w-8' /> </Link>
-              <Link href='/'><AiOutlineLinkedin className='text-gray-400 hover:text-white duration-150 h-8 w-8 ml-3' /> </Link>
-              <Link href='/'><AiOutlineGithub   className='text-gray-400 hover:text-white duration-150 h-8 w-8 ml-3' /> </Link>
-              <Link href='/'><HiOutlineMail     className='text-gray-400 hover:text-white duration-150 h-8 w-8 ml-3' /> </Link>
+              <Link href='https://www.instagram.com/lautarolazzeri' target="_blank"><FiInstagram       className='text-gray-400 hover:text-white duration-150 h-8 w-8' /> </Link>
+              <Link href='https://www.linkedin.com/in/lautaro-lazzeri/' target="_blank"><AiOutlineLinkedin className='text-gray-400 hover:text-white duration-150 h-8 w-8 ml-3' /> </Link>
+              <Link href='https://www.github.com/lautarolazzeri' target="_blank"><AiOutlineGithub   className='text-gray-400 hover:text-white duration-150 h-8 w-8 ml-3' /> </Link>
+              <Link href='mailto:lautyylazzerii@gmail.com'><HiOutlineMail     className='text-gray-400 hover:text-white duration-150 h-8 w-8 ml-3' /> </Link>
             </div>
           </div>
           <div className='md:ml-8 '>
