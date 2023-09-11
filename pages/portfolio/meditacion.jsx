@@ -55,7 +55,16 @@ export default function Meditacion() {
         </div>
       </div>
       <div className='md:ml-8 nomt'>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae totam impedit incidunt quisquam ab. Tempore ipsa tempora facilis magnam unde vero! Consequuntur laborum rerum magnam, reiciendis deserunt sed corporis nam dolorum molestias eveniet eius culpa ipsum vitae alias ratione tenetur. Fuga, consequatur tempore? Cum, quia?</p>
+        <p>
+
+        Este proyecto se centró en crear un espacio digital que inspire serenidad y facilite la práctica de la meditación para los usuarios. Aquí se destacan algunos aspectos clave de este exitoso desarrollo:
+        <br /><br />
+        El diseño se enfocó en la creación de una estética visual que transmite calma y serenidad. Se utilizaron colores suaves y una estética minimalista para reflejar la naturaleza pacífica de la meditación. Además se implementó una navegación sencilla y fácil de usar. Los usuarios podrán acceder sin esfuerzo a diversas meditaciones y recursos a través de un menú claro. Los botones de reproducción y pausa se destacarán para una experiencia de usuario óptima.
+        <br /><br />
+        La página ofrecerá una amplia gama de meditaciones guiadas de alta calidad. Los usuarios pueden elegir la duración y el tema que mejor se adapte a sus necesidades, y disfrutar de una experiencia de meditación enriquecedora.
+        <br /><br />
+        Actualmente se encuentra en etapa de desarrollo, pero se puede acceder a los avances en el link de arriba a la izquierda.
+        </p>
         <Image src='/meditation.jpg' width={500} height={300} alt='meditacion' className='mt-5 strange-padding' />
       </div>
   </div>
