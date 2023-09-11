@@ -204,7 +204,7 @@ export default function Portfolio() {
           </div>
 
 
-          <div className='md:-mt-36 mt-12'>
+          <div className='minusmargin mt-12'>
             <Image src='/meditation.jpg'
               width={200} height={100} layout='responsive' className='rounded-md'
               alt='Meditation Web'

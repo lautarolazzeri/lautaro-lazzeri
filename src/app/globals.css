@@ -56,3 +56,8 @@ html {
     margin-top: -5px;
   }
 }
+@media screen and (min-width: 768px) {
+  .minusmargin {
+    margin-top: -144px;
+  }
+}
