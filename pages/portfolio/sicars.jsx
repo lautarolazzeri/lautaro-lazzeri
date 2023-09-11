@@ -19,7 +19,7 @@ export default function Sicars() {
   <h3 className='md:text-5xl text-2xl'>Sicars Eventos</h3>
   <div className="md:flex-row flex flex-col  mt-20">
       <div className='w-full'>
-        <div className='py-5 border-t-2 border-[#636d726d]'>
+        <div className='strange-padding border-t-2 border-[#636d726d]'>
           <Link href='https://sicars.vercel.app' target='_blank'>
           <div className='flex items-center'>
             <p>Visitar Sicars</p>
@@ -28,11 +28,11 @@ export default function Sicars() {
         </Link>
         </div>
 
-        <div className='py-5 border-t-2 border-[#636d726d]'>
+        <div className='strange-padding border-t-2 border-[#636d726d]'>
             <h4 className='text-xl font-medium'>Sector</h4>
             <p className='text-[#ffffff6d]'>Diseño y desarrollo</p>
         </div>
-        <div className='py-5 border-t-2 border-[#636d726d]'>
+        <div className='strange-padding border-t-2 border-[#636d726d]'>
             <h4 className='text-xl font-medium mb-1'>Tecnologías</h4>
             <p className='text-[#ffffff6d] hover:text-white duration-100'>NextJs</p>
             <p className='text-[#ffffff6d] hover:text-white duration-100'>Javascript</p>
@@ -40,7 +40,7 @@ export default function Sicars() {
             <p className='text-[#ffffff6d] hover:text-white duration-100'>Base de Datos Firebase</p>
             <p className='text-[#ffffff6d] hover:text-white duration-100'>Vercel</p>
         </div>
-        <div className='py-4 border-t-2 border-[#636d726d]'>
+        <div className='strange-padding border-t-2 border-[#636d726d]'>
             <div className='mt-2 flex'>
                 <TbBrandNextjs className='h-10 w-10 text-gray-400 duration-150 hover:text-white' />
                 <BiLogoJavascript className='h-10 w-10 ml-2 text-gray-400 duration-150 hover:text-white' />

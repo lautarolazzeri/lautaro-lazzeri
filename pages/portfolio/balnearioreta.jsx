@@ -31,7 +31,7 @@ export default function BalnearioReta() {
             <h4 className='text-xl font-medium'>Sector</h4>
             <p className='text-[#ffffff6d]'>Diseño y desarrollo</p>
         </div>
-        <div className='py-5 border-t-2 border-[#636d726d]'>
+        <div className='strange-padding border-t-2 border-[#636d726d]'>
             <h4 className='text-xl font-medium mb-1'>Tecnologías</h4>
             <p className='text-[#ffffff6d] hover:text-white duration-100'>NextJs</p>
             <p className='text-[#ffffff6d] hover:text-white duration-100'>Css3</p>
