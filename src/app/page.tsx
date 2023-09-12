@@ -7,11 +7,13 @@ import About from './containers/About'
 import Technologies from './containers/Technologies'
 import Tools from './containers/Tools'
 import Footer from './containers/Footer'
+import { Analytics } from '@vercel/analytics/react'
 
 
 export default function Home() {
   return (
     <div className=''>
+      <Analytics />
       <ParticlesBackground />
 
       <Header />
