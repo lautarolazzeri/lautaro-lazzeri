@@ -13,7 +13,7 @@ export default function Projects() {
         <div className='md:mx-36 mx-8 md:grid md:grid-cols-2 md:gap-12'>
 
           <div>
-            <Image src='https://lautarolazzeri.vercel.app/images/metodosilva.jpg'
+            <Image src='/metodosilva.jpg'
               width={200} height={100} layout='responsive' className='rounded-md'
               alt='metodo silva'
             />
@@ -38,7 +38,7 @@ export default function Projects() {
           </div>
 
           <div className='md:mt-64 mt-16'>
-            <Image src='https://lautarolazzeri.vercel.app/images/reta.jpg'
+            <Image src='/reta.jpg'
               width={200} height={100} layout='responsive' className='rounded-md'
               alt='Balneario Reta'
             />
@@ -64,7 +64,7 @@ export default function Projects() {
           </div>
 
           <div className='md:-mt-40 mt-16'>
-            <Image src='https://lautarolazzeri.vercel.app/images/ceci.jpg'
+            <Image src='/ceci.jpg'
               width={200} height={100} layout='responsive' className='rounded-md'
               alt='Complejo la Merlina'
             />
@@ -90,7 +90,7 @@ export default function Projects() {
           </div>
 
           <div className='md:mt-24 mt-16'>
-            <Image src='https://lautarolazzeri.vercel.app/images/sicars.jpg'
+            <Image src='/sicars.jpg'
               width={200} height={100} layout='responsive' className='rounded-md'
               alt='Sicars eventos'
             />
@@ -116,7 +116,7 @@ export default function Projects() {
           </div>
 
           <div className='md:-mt-40 mt-16'>
-              <Image src='https://lautarolazzeri.vercel.app/images/seguridad.PNG'
+              <Image src='/seguridad.PNG'
                 width={200} height={100} layout='responsive' className='rounded-md'
                 alt='Seguridad Informática'
               />
