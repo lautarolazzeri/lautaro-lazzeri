@@ -1,75 +1,43 @@
 import { AiOutlineHtml5 } from "react-icons/ai";
-import { BiLogoFlutter, BiLogoJavascript, BiLogoWordpress } from "react-icons/bi";
-import { DiCss3 } from "react-icons/di";
+import { BiLogoJavascript } from "react-icons/bi";
+import { DiCss3, DiFirebase, DiJava } from "react-icons/di";
 import { FaReact } from "react-icons/fa";
-import { SiDart, SiSvelte, SiTailwindcss, SiTypescript } from "react-icons/si";
+import { SiTailwindcss, SiTypescript, SiC, SiCplusplus, SiCsharp } from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
-import { DiFirebase } from 'react-icons/di'
+
+
+const technologies = [
+  { icon: AiOutlineHtml5, label: "HTML" },
+  { icon: DiCss3, label: "CSS3" },
+  { icon: BiLogoJavascript, label: "Javascript" },
+  { icon: TbBrandNextjs, label: "Next Js" },
+  { icon: FaReact, label: "React" },
+  { icon: SiTailwindcss, label: "Tailwind" },
+  { icon: SiTypescript, label: "Typescript" },
+  { icon: DiJava, label: "Java" },
+  { icon: SiC, label: "C" },
+  { icon: SiCplusplus, label: "C++" },
+  { icon: SiCsharp, label: "C#" },
+  { icon: DiFirebase, label: "Firebase / Supabase" },
+];
 
 export default function Technologies() {
   return (
     <>
-    <h2 className='md:mx-36 mx-8 mt-20 text-3xl mb-12 font-title'>Tecnologías utilizadas</h2>
-        <div className='md:mx-36 mx-8 md:grid flex items-center flex-wrap justify-center lg:grid-cols-4 md:grid-cols-3'>
-            <div className='w-full flex items-center px-3 py-8 gap-4 border-l-2 border-[#636d72] hover:border-l-2 hover:border-[#5477ff] duration-100 hover:text-white text-gray-400 '>
-              <AiOutlineHtml5 className='h-14 w-14 duration-150' />
-              <p className='mt-2'>HTML</p>
-            </div>
-            <div className='w-full flex items-center px-3 py-8 gap-4 border-l-2 border-[#636d72] hover:border-l-2 hover:border-[#5477ff] duration-100 hover:text-white text-gray-400 '>
-
-              <DiCss3 className='h-14 w-14 duration-150' />
-              <p className='mt-2'>CSS3</p>
-            </div>
-            <div className='w-full flex items-center px-3 py-8 gap-4 border-l-2 border-[#636d72] hover:border-l-2 hover:border-[#5477ff] duration-100 hover:text-white text-gray-400 '>
-
-              <SiTailwindcss className='h-14 w-14 duration-150' />
-              <p className='mt-2'>Tailwind</p>
-            </div>
-            <div className='w-full flex items-center px-3 py-8 gap-4 border-l-2 border-[#636d72] hover:border-l-2 hover:border-[#5477ff] duration-100 hover:text-white text-gray-400 '>
-
-              <BiLogoJavascript className='h-14 w-14 duration-150' />
-              <p className='mt-2'>Javascript</p>
-            </div>
-            <div className='w-full flex items-center px-3 py-8 gap-4 border-l-2 border-[#636d72] hover:border-l-2 hover:border-[#5477ff] duration-100 hover:text-white text-gray-400 '>
-
-              <FaReact className='h-14 w-14 duration-150' />
-              <p className='mt-2'>React</p>
-            </div>
-            <div className='w-full flex items-center px-3 py-8 gap-4 border-l-2 border-[#636d72] hover:border-l-2 hover:border-[#5477ff] duration-100 hover:text-white text-gray-400 '>
-
-              <SiTypescript className='h-14 w-14 duration-150' />
-              <p className='mt-2'>Typescript</p>
-            </div>
-            <div className='w-full flex items-center px-3 py-8 gap-4 border-l-2 border-[#636d72] hover:border-l-2 hover:border-[#5477ff] duration-100 hover:text-white text-gray-400 '>
-
-              <TbBrandNextjs className='h-14 w-14 duration-150' />
-              <p className='mt-2'>Next Js</p>
-            </div>
-            <div className='w-full flex items-center px-3 py-8 gap-4 border-l-2 border-[#636d72] hover:border-l-2 hover:border-[#5477ff] duration-100 hover:text-white text-gray-400 '>
-
-              <BiLogoFlutter className='h-14 w-14 duration-150' />
-              <p className='mt-2'>Flutter</p>
-            </div>
-            <div className='w-full flex items-center px-3 py-8 gap-4 border-l-2 border-[#636d72] hover:border-l-2 hover:border-[#5477ff] duration-100 hover:text-white text-gray-400 '>
-
-              <SiDart className='h-14 w-14 duration-150' />
-              <p className='mt-2'>Dart</p>
-            </div>
-            <div className='w-full flex items-center px-3 py-8 gap-4 border-l-2 border-[#636d72] hover:border-l-2 hover:border-[#5477ff] duration-100 hover:text-white text-gray-400 '>
-
-              <BiLogoWordpress className='h-14 w-14 duration-150' />
-              <p className='mt-2'>Wordpress</p>
-            </div>
-            <div className='w-full flex items-center px-3 py-8 gap-4 border-l-2 border-[#636d72] hover:border-l-2 hover:border-[#5477ff] duration-100 hover:text-white text-gray-400 '>
-            <DiFirebase className='h-14 w-14 duration-150' />
-            <p className='mt-2'>Firebase / Sql</p>
-            </div>
-            <div className='w-full flex items-center px-3 py-8 gap-4 border-l-2 border-[#636d72] hover:border-l-2 hover:border-[#5477ff] duration-100 hover:text-white text-gray-400 '>
-            <SiSvelte className='h-14 w-14 duration-150' />
-            <p className='mt-2'>Svelte</p>
-            </div>
+      <h2 className="mx-8 mb-12 mt-20 font-title text-3xl md:mx-36">
+        Tecnologías utilizadas
+      </h2>
+      <div className="mx-8 flex flex-wrap items-center justify-center md:mx-36 md:grid md:grid-cols-3 lg:grid-cols-4">
+        {technologies.map(({ icon: Icon, label }) => (
+          <div
+            key={label}
+            className="flex w-full items-center gap-4 border-l-2 border-[#636d72] px-3 py-8 text-gray-400 duration-100 hover:border-l-2 hover:border-[#5477ff] hover:text-white"
+          >
+            <Icon className="h-14 w-14 duration-150" />
+            <p className="mt-2">{label}</p>
           </div>
-
+        ))}
+      </div>
     </>
-  )
+  );
 }

@@ -1,11 +1,37 @@
 export default function About() {
-  return(
-    <div className='md:mt-40 mt-56 flex justify-center items-center flex-col'>
-      <hr className='bg-[#636d728d] h-px w-full my-8 border-0 ' />
-      <div className='md:mx-36 mx-8 lg:-mt-24 rounded-lg -mt-52 md:-mt-40 py-8 px-8 md:px-14 bg-[#181e27] border-2 border-[#636d725f]'>
-        <h2 className='text-2xl font-title'>Un poco sobre mí</h2>
-        <p className='font-title text-gray-400 mt-3 mb-6'>Soy desarrollador de Software autónomo, siempre he adquirido conocimientos por mi cuenta, leyendo, realizando cursos, practicando, trabajando. <br /> Mi experiencia en diversos lenguajes y mi enfoque en la resolución creativa de problemas para ofrecer el mejor servicio me destacan en el ámbito. Entregué varios proyectos exitosos de manera independiente, demostrando mi autodisciplina y habilidades de gestión de proyectos. <br /> Siempre estoy preparado para conocer nuevas tecnologías y mantenerme actualizado. Mi compromiso con la mejora contínua me compromete a tener conocimiento de las últimas tecnologías y sus beneficios. <br /> Estoy emocionado por la oportunidad de contribuir a su equipo y llevar mi pasión por la programación al siguiente nivel.</p>
+  const highlights = [
+    { label: "Formación", value: "Téc. en Informática" },
+    { label: "Estudios superiores (En Curso)", value: "Ingeniería en Sistemas de Información" },
+    { label: "Stack", value: "Web & Mobile" },
+  ];
+
+  return (
+    <div className="mt-56 flex flex-col items-center justify-center md:mt-40">
+      <hr className="my-8 h-px w-full border-0 bg-[#636d728d]" />
+      <div className="-mt-52 rounded-lg border-2 border-[#636d725f] bg-[#181e27] px-8 py-8 md:-mt-40 md:mx-36 md:px-14 mx-8 lg:-mt-24">
+        <h2 className="font-title text-2xl">Un poco sobre mí</h2>
+
+        <p className="mb-6 mt-3 font-title text-gray-400">
+          Soy <strong>Técnico en Informática</strong> egresado de la Escuela Técnica San
+          Judas Tadeo (Ituzaingó) y actualmente estudio <strong>Ingeniería en Sistemas de Información</strong> en la Universidad Nacional del Sur. <br />
+          Desde 2020 desarrollo aplicaciones web y móviles, combinando mi formación académica con un aprendizaje constante a través de documentación, cursos y proyectos reales. <br />
+          Trabajo con distintos lenguajes y frameworks, priorizando siempre
+          soluciones simples y bien pensadas por sobre las complejas. Ya
+          entregué varios proyectos de forma independiente, encargándome de
+          cada etapa: desde el diseño y la planificación hasta la implementación y el despliegue en producción. <br />
+          Me gusta mantenerme al día con nuevas tecnologías, y sigo sumando
+          proyectos a este portafolio.
+        </p>
+
+        <div className="flex flex-wrap gap-6 border-t border-[#636d725f] pt-6">
+          {highlights.map((item) => (
+            <div key={item.label}>
+              <p className="font-title text-xl text-white">{item.value}</p>
+              <p className="text-sm text-gray-500">{item.label}</p>
+            </div>
+          ))}
+        </div>
       </div>
     </div>
-  )
+  );
 }

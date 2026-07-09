@@ -2,43 +2,34 @@ import { AiFillGithub, AiFillGitlab } from "react-icons/ai";
 import { BiGitBranch } from "react-icons/bi";
 import { DiScrum } from "react-icons/di";
 import { FiFigma } from "react-icons/fi";
-import {RxVercelLogo} from 'react-icons/rx'
+import { RxVercelLogo } from "react-icons/rx";
+
+const tools = [
+  { icon: BiGitBranch, label: "Git" },
+  { icon: AiFillGithub, label: "Github" },
+  { icon: AiFillGitlab, label: "Gitlab" },
+  { icon: DiScrum, label: "Scrum" },
+  { icon: FiFigma, label: "Figma" },
+  { icon: RxVercelLogo, label: "Vercel" },
+];
+
 export default function Tools() {
   return (
     <>
-    <h2 className='md:mx-36 mx-8 mt-20 text-3xl mb-12 font-title'>Herramientas</h2>
-        <div className='md:mx-36 mx-8 md:grid flex items-center flex-wrap justify-center lg:grid-cols-6 md:grid-cols-3'>
-
-          <div className='w-full flex items-center px-3 py-8 gap-4 border-l-2 border-[#636d72] hover:border-l-2 hover:border-[#5477ff] duration-100 hover:text-white text-gray-400 '>
-            <BiGitBranch className='h-14 w-14 duration-150' />
-            <p className='mt-2'>Git</p>
+      <h2 className="mx-8 mb-12 mt-20 font-title text-3xl md:mx-36">
+        Herramientas
+      </h2>
+      <div className="mx-8 flex flex-wrap items-center justify-center md:mx-36 md:grid md:grid-cols-3 lg:grid-cols-6">
+        {tools.map(({ icon: Icon, label }) => (
+          <div
+            key={label}
+            className="flex w-full items-center gap-4 border-l-2 border-[#636d72] px-3 py-8 text-gray-400 duration-100 hover:border-l-2 hover:border-[#5477ff] hover:text-white"
+          >
+            <Icon className="h-14 w-14 duration-150" />
+            <p className="mt-2">{label}</p>
           </div>
-
-          <div className='w-full flex items-center px-3 py-8 gap-4 border-l-2 border-[#636d72] hover:border-l-2 hover:border-[#5477ff] duration-100 hover:text-white text-gray-400 '>
-            <AiFillGithub className='h-14 w-14 duration-150' />
-            <p className='mt-2'>Github</p>
-          </div>
-
-          <div className='w-full flex items-center px-3 py-8 gap-4 border-l-2 border-[#636d72] hover:border-l-2 hover:border-[#5477ff] duration-100 hover:text-white text-gray-400 '>
-            <AiFillGitlab className='h-14 w-14 duration-150' />
-            <p className='mt-2'>Gitlab</p>
-          </div>
-
-          <div className='w-full flex items-center px-3 py-8 gap-4 border-l-2 border-[#636d72] hover:border-l-2 hover:border-[#5477ff] duration-100 hover:text-white text-gray-400 '>
-            <DiScrum className='h-14 w-14 duration-150' />
-            <p className='mt-2'>Scrum</p>
-          </div>
-
-          <div className='w-full flex items-center px-3 py-8 gap-4 border-l-2 border-[#636d72] hover:border-l-2 hover:border-[#5477ff] duration-100 hover:text-white text-gray-400 '>
-            <FiFigma className='h-14 w-14 duration-150' />
-            <p className='mt-2'>Figma</p>
-          </div>
-
-          <div className='w-full flex items-center px-3 py-8 gap-4 border-l-2 border-[#636d72] hover:border-l-2 hover:border-[#5477ff] duration-100 hover:text-white text-gray-400 '>
-            <RxVercelLogo className='h-14 w-14 duration-150' />
-            <p className='mt-2'>Vercel</p>
-          </div>
-        </div>
+        ))}
+      </div>
     </>
-  )
+  );
 }
