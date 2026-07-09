@@ -139,7 +139,6 @@ export const projects = [
       "Durante el desarrollo se trabajó con captura de audio, manejo de eventos, interacción con APIs del navegador y actualización dinámica del contenido, demostrando cómo las tecnologías web pueden integrarse para crear herramientas prácticas basadas en reconocimiento de voz."
     ],
   },
-
 ];
 
 export function getProjectBySlug(slug) {
